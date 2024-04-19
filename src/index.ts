@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
-import jobsRoutes from "./routes/jobs/jobsRoutes";
-import 'dotenv/config'
+import jobsRoutes from "./routes/jobs/jobsRoutes.js";
+import "dotenv/config";
 const app = express();
 
 // Server
